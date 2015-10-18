@@ -15,6 +15,7 @@
 		594FBE0B1BD3EA3000A59341 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 594FBE091BD3EA3000A59341 /* LaunchScreen.storyboard */; };
 		594FBE161BD3EA3000A59341 /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594FBE151BD3EA3000A59341 /* TipCalculatorTests.swift */; };
 		594FBE211BD3EA3000A59341 /* TipCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594FBE201BD3EA3000A59341 /* TipCalculatorUITests.swift */; };
+		594FBE311BD3EB0100A59341 /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 594FBE301BD3EB0100A59341 /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		594FBE1C1BD3EA3000A59341 /* TipCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		594FBE201BD3EA3000A59341 /* TipCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorUITests.swift; sourceTree = "<group>"; };
 		594FBE221BD3EA3000A59341 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		594FBE301BD3EB0100A59341 /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
+		594FBE331BD3F84C00A59341 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +102,9 @@
 		594FBDFC1BD3EA3000A59341 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				594FBDFD1BD3EA3000A59341 /* AppDelegate.swift */,
-				594FBDFF1BD3EA3000A59341 /* ViewController.swift */,
-				594FBE011BD3EA3000A59341 /* Main.storyboard */,
-				594FBE071BD3EA3000A59341 /* Assets.xcassets */,
-				594FBE091BD3EA3000A59341 /* LaunchScreen.storyboard */,
-				594FBE0C1BD3EA3000A59341 /* Info.plist */,
-				594FBE041BD3EA3000A59341 /* TipCalculator.xcdatamodeld */,
+				594FBE321BD3F83900A59341 /* playground */,
+				594FBE2F1BD3EAE000A59341 /* model */,
+				594FBE2E1BD3EACA00A59341 /* GUI */,
 			);
 			path = TipCalculator;
 			sourceTree = "<group>";
@@ -126,6 +125,36 @@
 				594FBE221BD3EA3000A59341 /* Info.plist */,
 			);
 			path = TipCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		594FBE2E1BD3EACA00A59341 /* GUI */ = {
+			isa = PBXGroup;
+			children = (
+				594FBDFD1BD3EA3000A59341 /* AppDelegate.swift */,
+				594FBDFF1BD3EA3000A59341 /* ViewController.swift */,
+				594FBE011BD3EA3000A59341 /* Main.storyboard */,
+				594FBE071BD3EA3000A59341 /* Assets.xcassets */,
+				594FBE091BD3EA3000A59341 /* LaunchScreen.storyboard */,
+				594FBE0C1BD3EA3000A59341 /* Info.plist */,
+				594FBE041BD3EA3000A59341 /* TipCalculator.xcdatamodeld */,
+			);
+			name = GUI;
+			sourceTree = "<group>";
+		};
+		594FBE2F1BD3EAE000A59341 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				594FBE301BD3EB0100A59341 /* TipCalculatorModel.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		594FBE321BD3F83900A59341 /* playground */ = {
+			isa = PBXGroup;
+			children = (
+				594FBE331BD3F84C00A59341 /* MyPlayground.playground */,
+			);
+			name = playground;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +291,7 @@
 				594FBE061BD3EA3000A59341 /* TipCalculator.xcdatamodeld in Sources */,
 				594FBE001BD3EA3000A59341 /* ViewController.swift in Sources */,
 				594FBDFE1BD3EA3000A59341 /* AppDelegate.swift in Sources */,
+				594FBE311BD3EB0100A59341 /* TipCalculatorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
